@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "img": "^3.0.3"
+    "css": "^3.0.0"
   }
 }

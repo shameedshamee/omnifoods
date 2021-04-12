@@ -1,3 +1,6 @@
+/*----------------------------------*/
+/*BASIC SETUP*/
+/*----------------------------------*/
 *{
   margin: 0;
   padding: 0;
@@ -11,11 +14,63 @@ html{
   font-style: 20px;
   text-rendering: optimizeLegibility ;
 }
+/*----------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*----------------------------------*/
 .row{
   max-width: 1140px;
   margin: 0 auto;
 }
-
+/*----------HEADINGS---------*/
+h1{
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+/*----------BUTTONS---------*/
+.btn:link,
+.btn:visited{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.but-full:link,
+.but-full:visited{
+  border: 1px solid #e67e22;
+  background-color: #e67e22;
+  color: #fff;
+  margin-right: 15px;
+}
+.but-ghost:link,
+.but-ghost:visited{
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+.btn:hover,
+.btn:active{
+  background-color:#cf6d17 ;
+}
+.but-full:hover,
+.but-full:active{
+  border: 1px solid #cf6d17;
+  
+}
+.but-ghost:hover,
+.but-ghost:active{
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+/*----------------------------------*/
+/*HEADER*/
+/*----------------------------------*/
 header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.719)),url(https://stackblitz.com/files/omnifoods/github/shameedshamee/omnifoods/master/hero.jpg);
   background-size: cover;
@@ -28,22 +83,4 @@ header{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-}
-h1{
-  margin: 0;
-  color: #fff;
-  font-size: 240%;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 4px;
-}
-.btn{
-  display: inline-block;
-  padding: 10px 30px;
-  font-weight: 300;
-  text-decoration: none;
-}
-.btu-full{
-  background-color: #e67e22;
 }

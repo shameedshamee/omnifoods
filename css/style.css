@@ -14,6 +14,14 @@ html{
   font-style: 20px;
   text-rendering: optimizeLegibility ;
 }
+.clearfix{zoom:1}
+.clearfix:after{
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
 /*----------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*----------------------------------*/
@@ -63,6 +71,11 @@ h2:after{
   margin-top: 30px;
 
 }
+/*.section-steps h2{
+  float: left;
+  margin-left: 25%;
+  
+} */
 /*----------PARAGRAPHS---------*/
 .long-copy{
   line-height: 145%;
@@ -75,6 +88,7 @@ h2:after{
   font-size: 90%;
   line-height: 145%;
 }
+
 /*----------ICONS---------*/
 .big-icon{
   font-size: 350%;
@@ -205,4 +219,53 @@ header{
   transform: scale(1.04);
   
 
+}
+/*----------------------------------*/
+/*  HOW IT WORKS */
+/*----------------------------------*/
+.section-steps{
+  background-color:rgb(238, 232, 232);
+}
+.steps-box:first-child{
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+.steps-box:last-child{
+  padding-left: 3%;
+  margin-top: 70px;
+  
+}
+.app-screen{
+  width: 40% ;
+ /* margin-right: 25%; */
+  
+}
+.works-step {
+  margin-bottom: 50px;
+}
+.works-step:last-of-type{
+  margin-bottom: 80px;
+}
+.works-step div{
+  color: #e67e22;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 10px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+
+}
+
+.btn-app img{
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+  
+  
 }

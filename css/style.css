@@ -169,7 +169,7 @@ input[type=submit]:active{
 /*HEADER*/
 /*----------------------------------*/
 header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.719)),url(https://stackblitz.com/files/omnifoods/github/shameedshamee/omnifoods/master/css/i/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.719)),url(https://stackblitz.com/files/omnifoods/github/shameedshamee/omnifoods/master/css/img/hero.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
